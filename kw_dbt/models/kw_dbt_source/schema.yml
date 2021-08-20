@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+    - name: Books
+      description: "A starter dbt model"
+      database: kwprod
+      schema: YardiCORP
+      tables:
+          - name: _airbyte_raw_Books
+            description: "Books table"
+
